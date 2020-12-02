@@ -5,8 +5,7 @@
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h3>Osoby w systemie:  <p style="color:#ff0000">{{ $blogs ->total() }} </h3></p>
-           Andrzej:     {{ $osoba ?? '' }}
-                PŁK:     {{ $users ?? '' }}
+
             </div>
 
             <div class="pull-right">

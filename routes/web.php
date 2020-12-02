@@ -48,8 +48,8 @@ Route::get('/', function () {
 //Route::get('list','BronController@raport');
 //Route::get('/welcome', [BronController::class, 'raport']);
 Route::get('welcome','BronController@raport');
-Route::get('blogs','BlogController@osoby');
-Route::get('blogs','BlogController@ble');
+//Route::get('blogs','BlogController@osoby');
+//Route::get('blogs','BlogController@ble');
 Route::get('list','BlogController@dbCheck');
 //Route::get('list/{name?}', function ($name = 'WIST 94') {
   //  return $name;
